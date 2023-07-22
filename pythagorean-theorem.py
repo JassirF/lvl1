@@ -14,27 +14,25 @@ while True:
     if a == '':
         b = int(b)
         c = int(c)
-        if b or c == 'salir':
-            break
         print('Calculare a')
         a = math.sqrt((b**2+c**2))
-        print('Esta es c:', a)
+        print(f'El resultado de a es: {a}')
     if b == '':
         a = int(a)
         c = int(c)
-        if a or c == 'salir':
-            break
         print('Calculare b')
         b = math.sqrt((a**2+c**2))
-        print('Esta es c:', b)
+        print(f'El resultado de b es: {b}')
     if c == '':
         a = int(a)
         b = int(b)
-        if a or b == 'salir':
-            break
         print('Calculare c')
         c = math.sqrt((a**2+b**2))
-        print('Esta es c:', c)
+        print(f'El resultado de c es: {c}')
+    elif a or b or c == 'salir':
+        print('Gracias por usarme')
+        break
     else:
+        print('Gracias por usarme')
         break
 
