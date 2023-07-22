@@ -1,5 +1,4 @@
-"""Create a hypotenuse.py program that asks the user for two numbers, a and b, and calculates the hypotenuse using the Pythagorean equation, rewritten like so:
-
+"""Create a program that solves the Pythagorean Theorem:
 c**2 = (a**2 + b**2)
 """
 import math
@@ -35,4 +34,3 @@ while True:
     else:
         print('Gracias por usarme')
         break
-
