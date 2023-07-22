@@ -29,10 +29,10 @@ while True:
         Hufflepuff += 1
         Slytherin += 1
     print('¿Cuando mueras querras ser recordado de que manera?')
-    print(f' 1) {nombre} el Bueno')
-    print(f' 2) {nombre} el Grande')
-    print(f' 3) {nombre} el Sabio')
-    print(f' 4) {nombre} el Intrepido')
+    print(f' 1) {nombre} el/la Bueno/a')
+    print(f' 2) {nombre} el/la Grande')
+    print(f' 3) {nombre} el/la Sabio/a')
+    print(f' 4) {nombre} el/la Intrepido/a')
     ch2 = int(input(''))
     if ch2 == 1:
         Hufflepuff += 2
@@ -67,4 +67,4 @@ if score == Hufflepuff:
     print('¡Hufflepuff!')
 if score == Ravenclaw:
     print('¡Ravenclaw!')
-print('Esa sera tu casa de ahora en adelante joven mago, te esperan muchas aventuras, suerte!')
+print('Esa sera tu casa de ahora en adelante joven mago/a, te esperan muchas aventuras, suerte!')
