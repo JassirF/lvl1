@@ -1,17 +1,5 @@
 """This programs create a game where you Q and it A with some random text generated randomly over a 
 fixed database"""
-# Create a magic8.py program that can respond to any Yes or No questions with a different answe
-# each time it executes.
-
-# The output should have the following format:
-
-# Question:      [Question]
-# Magic 8 Ball:  [Answer]
-
-# For example:
-
-# Question:      Is Codédex better than Udemy yet?
-# Magic 8 Ball:  Better not tell you now.
 import random
 n1 = ('Si, definitivamente.')
 n2 = ('Rotundamente no.')
