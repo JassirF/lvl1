@@ -6,9 +6,9 @@ print('Bienvenido al teorema de pitagoras, te va petar el cerebro')
 print('Elige 2 de las variables que me daras, puede ser cualquiera, PERO DEBEN SER DOS!')
 
 
-a = (input('a = '))
-b = (input('b = '))
-c = (input('c = '))
+a = input('a = ')
+b = input('b = ')
+c = input('c = ')
 while True:
     if a == '':
         b = int(b)
