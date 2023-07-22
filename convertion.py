@@ -15,3 +15,5 @@ if real_bra == int(real_bra):
     print ('Con los reales que tienes puedes cambiarlos a: ')
     print(peso_col*0.1879,'euros')
     print(peso_col*0.2092,'dolares')
+# Next level will be to use an actual URL to set the convertion
+# rate of sol_per, peso_col, real_bra, so it is not a fixed int
