@@ -58,7 +58,7 @@ while True:
         Gryffindor += 4
 
     break
-score = max(Gryffindor,Slytherin,Hufflepuff,Ravenclaw)
+score = max(Gryffindor, Slytherin, Hufflepuff, Ravenclaw)
 if score == Gryffindor:
     print('¡Gryffindor!')
 if score == Slytherin:
